@@ -68,7 +68,7 @@
 		
 					<!-- HOME -->
 					<li class="has-submenu">
-						<a href="#">Home</a>
+						<a href="#"> Home</a>
 						
 					</li>
 					<!-- END HOME -->
