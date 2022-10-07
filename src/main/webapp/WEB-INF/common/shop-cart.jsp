@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="taglib.jsp" %>
 <!-- SHOP CART -->
 	<div class="off-canvas-cart">
 	
@@ -19,7 +20,7 @@
 							<a href="#"><i class="icon-trash icons"></i></a>
 						</div>
 						<div class="off-canvas-cart-item-thumbnail">
-							<a href="#"><img class="cart-thumbnail" src="assets/images/shop/1.jpg" alt=""></a>
+							<a href="#"><img class="cart-thumbnail" src="<c:url value='/user/assets/images/shop/1.jpg'/>" alt=""></a>
 						</div>
 						<div class="off-canvas-cart-item-title">
 							<h5 class="m-b-5"><a href="#">Buttoned Linen Skirt</a></h5>
@@ -34,7 +35,7 @@
 							<a href="#"><i class="icon-trash icons"></i></a>
 						</div>
 						<div class="off-canvas-cart-item-thumbnail">
-							<a href="#"><img class="cart-thumbnail" src="assets/images/shop/2.jpg" alt=""></a>
+							<a href="#"><img class="cart-thumbnail" src="<c:url value='/user/assets/images/shop/2.jpg'/>" alt=""></a>
 						</div>
 						<div class="off-canvas-cart-item-title">
 							<h5 class="m-b-5"><a href="#">Printed Bermuda Shorts</a></h5>
@@ -49,7 +50,7 @@
 							<a href="#"><i class="icon-trash icons"></i></a>
 						</div>
 						<div class="off-canvas-cart-item-thumbnail">
-							<a href="#"><img class="cart-thumbnail" src="assets/images/shop/3.jpg" alt=""></a>
+							<a href="#"><img class="cart-thumbnail" src="<c:url value='/user/assets/images/shop/3.jpg'/>" alt=""></a>
 						</div>
 						<div class="off-canvas-cart-item-title">
 							<h5 class="m-b-5"><a href="#">Short Frilled Skirt</a></h5>

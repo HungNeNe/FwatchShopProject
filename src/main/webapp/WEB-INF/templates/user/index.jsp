@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ include file="/WEB-INF/common/taglib.jsp" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	
+
 	
 	<%@ include file="/WEB-INF/common/head.jsp" %>
  		
@@ -25,6 +23,7 @@ Template Fwatch Shop
 
 <body>
     <!-- Start Top Nav -->
+
     <jsp:include page="/WEB-INF/common/nav.jsp"></jsp:include>
     <!-- Close Top Nav -->
 
@@ -41,7 +40,7 @@ Template Fwatch Shop
 			<ul class="slides">
 
 				<!--  -->
-				<li class="bg-black-alfa-40" style="background-image:url(assets/images/module-1.jpg)">
+				<li class="bg-black-alfa-40" style="background-image:url(/user/assets/images/module-1.jpg)">
 					<!-- HERO TEXT -->
 					<div class="hero-caption">
 						<div class="hero-text">
@@ -65,7 +64,7 @@ Template Fwatch Shop
 				<!--  -->
 
 				<!--  -->
-				<li class="bg-black-alfa-70" style="background-image:url(assets/images/module-13.jpg)">
+				<li class="bg-black-alfa-70" style="background-image:url(/user/assets/images/module-13.jpg)">
 					<!-- HERO TEXT -->
 					<div class="hero-caption">
 						<div class="hero-text">
@@ -90,7 +89,7 @@ Template Fwatch Shop
 
 				<!--  -->
 
-				<li style="background-image:url(assets/images/module-16.jpg)">
+				<li style="background-image:url(/user/assets/images/module-16.jpg)">
 					<!-- HERO TEXT -->
 					<div class="hero-caption">
 						<div class="hero-text">
@@ -135,7 +134,7 @@ Template Fwatch Shop
 					<div class="col-sm-4 col-md-4 col-lg-4">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/1.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/1.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -158,7 +157,7 @@ Template Fwatch Shop
 					<div class="col-sm-4 col-md-4 col-lg-4">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/2.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/2.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -181,7 +180,7 @@ Template Fwatch Shop
 					<div class="col-sm-4 col-md-4 col-lg-4">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/3.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/3.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -212,11 +211,11 @@ Template Fwatch Shop
 
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#"><img src="assets/images/shop/add-block-1.jpg" alt=""></a>
+						<a href="#"><img src="<c:url value='/user/assets/images/shop/add-block-1.jpg'/>" alt=""></a>
 					</div>
 
 					<div class="col-sm-6">
-						<a href="#"><img src="assets/images/shop/add-block-2.jpg" alt=""></a>
+						<a href="#"><img src="<c:url value='/user/assets/images/shop/add-block-2.jpg'/>" alt=""></a>
 					</div>
 				</div><!-- .row -->
 
@@ -243,7 +242,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/1.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/1.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -266,7 +265,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/2.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/2.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -289,7 +288,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/3.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/3.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -312,7 +311,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/4.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/4.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -335,7 +334,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/5.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/5.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -358,7 +357,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/6.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/6.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -381,7 +380,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/7.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/7.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -404,7 +403,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/8.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/8.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -427,7 +426,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/9.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/9.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -450,7 +449,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/10.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/10.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -473,7 +472,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/11.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/11.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>
@@ -496,7 +495,7 @@ Template Fwatch Shop
 					<div class="col-sm-3 col-md-3 col-lg-3">
 						<div class="shop-item">
 							<div class="shop-item-photo">
-								<a href="#"><img src="assets/images/shop/12.jpg" alt=""></a>
+								<a href="#"><img src="<c:url value='/user/assets/images/shop/12.jpg'/>" alt=""></a>
 								<div class="shop-item-tools">
 									<div>
 										<div>

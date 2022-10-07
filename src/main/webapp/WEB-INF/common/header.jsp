@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
+<%@ include file="taglib.jsp" %>
 <!-- HEADER -->
 	<header class="header js-stick">
 		<div class="container">
