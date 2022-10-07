@@ -5,14 +5,22 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/fwatch.com")
 public class TestController {
-	@GetMapping("/testindex")
+	@GetMapping("")
 	public String testindex() {
 		return "/user/index";
 	}
-	@GetMapping("/testcontact")
+	@GetMapping("/contact")
 	public String testcontact() {
 		return "/user/contact";
+	}
+	@GetMapping("/about")
+	public String testabout() {
+		return "/user/about";
+	}
+	@GetMapping("/faq")
+	public String testfaq() {
+		return "/user/faq";
 	}
 }

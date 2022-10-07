@@ -5,7 +5,7 @@
 		<div class="container">
 			<!-- YOUR LOGO HERE -->
 			<div class="inner-header">
-				<a class="inner-brand" href="index">
+				<a class="inner-brand" href="/fwatch.com">
 					<img class="brand-light" src="<c:url value='/user/assets/images/logo-light.png'/> " width="100" alt="">
 					<img class="brand-dark" src="<c:url value='/user/assets/images/logo-dark.png'/> " width="100" alt="">
 				</a>
@@ -68,7 +68,7 @@
 		
 					<!-- HOME -->
 					<li class="has-submenu">
-						<a href="#"> Home</a>
+						<a href="/fwatch.com"> Home</a>
 						
 					</li>
 					<!-- END HOME -->
@@ -221,20 +221,20 @@
 					
 					<!-- contact -->
 					<li class="has-submenu">
-						<a href="#">Liên Hệ</a>
+						<a href="/fwatch.com/contact">Liên Hệ</a>
 						
 					</li>
 					<!-- END contact -->
 					
 					<!-- about -->
 					<li class="has-submenu">
-						<a href="#">Về Chúng Tôi</a>
+						<a href="/fwatch.com/about">Về Chúng Tôi</a>
 						
 					</li>
 					<!-- END about -->
 					
 					<li class="has-submenu">
-						<a href="#">FAQ</a>
+						<a href="/fwatch.com/faq">FAQ</a>
 						
 					</li>
 		
