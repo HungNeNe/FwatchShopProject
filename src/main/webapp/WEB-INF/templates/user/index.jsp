@@ -10,14 +10,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	
-	
 	<%@ include file="/WEB-INF/common/head.jsp" %>
- 		
 <!--
-    
 Template Fwatch Shop
-
+author : thehung
 -->
 </head>
 
@@ -212,11 +208,10 @@ Template Fwatch Shop
 
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#"><img src="<c:url value='/user/assets/images/shop/add-block-1.jpg'/>" alt=""></a>
+						<a href="#"><img src="<c:url value='/user/assets/images/banquyen/dongho-nam.png'/>" alt=""></a>
 					</div>
-
 					<div class="col-sm-6">
-						<a href="#"><img src="<c:url value='/user/assets/images/shop/add-block-2.jpg'/>" alt=""></a>
+						<a href="#"><img src="<c:url value='/user/assets/images/banquyen/dongho-nu.png'/>" alt=""></a>
 					</div>
 				</div><!-- .row -->
 
