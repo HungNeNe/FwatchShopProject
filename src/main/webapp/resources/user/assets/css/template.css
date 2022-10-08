@@ -2937,7 +2937,7 @@ body.off-canvas-cart-open:after {
 
 .submenu .has-submenu > a:after {
     position: absolute;
-    content: "\f105";
+
     display: block;
     right: 14px;
     top: 50%;
@@ -3177,7 +3177,7 @@ body.off-canvas-cart-open:after {
 
     .has-submenu > a:after {
         position: absolute;
-        content: "\f105";
+
         display: block;
         right: 0px;
         top: 50%;
