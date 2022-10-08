@@ -23,4 +23,7 @@ public class TestController {
 	public String testfaq() {
 		return "/user/faq";
 	}
+	@GetMapping("/shop")
+	public String testshop() { return "/user/shop";
+	}
 }

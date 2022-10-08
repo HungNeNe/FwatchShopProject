@@ -112,6 +112,12 @@
 						
 					</li>
 					<!-- END HOME -->
+					<!-- SHOP -->
+					<li class="has-submenu">
+						<a href="/fwatch.com/shop"> Shop</a>
+
+					</li>
+					<!-- END SHOP-->
 					
 					<!-- top 100 -->
 					<li class="has-submenu">
