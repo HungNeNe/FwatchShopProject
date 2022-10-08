@@ -10,10 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
-
     <%@ include file="/WEB-INF/common/head.jsp" %>
-
     <!--
 
     Template Fwatch Shop
@@ -34,8 +31,6 @@
 <div class="wrapper">
 <!-- PAGE TITLE -->
     <!-- WRAPPER -->
-
-
         <!-- PAGE TITLE -->
         <section class="module-sm bg-white-dark">
             <div class="container">
@@ -43,11 +38,10 @@
                 <div class="row">
                     <div class="col-sm-12 text-center">
 
-                        <h3 class="montserrat text-uppercase m-b-10">Shop Grid</h3>
+                        <h3 class="montserrat text-uppercase m-b-10">Shop All Product </h3>
                         <ol class="breadcrumb text-xs">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li class="active">Shop Grid</li>
+                            <li class="active">Shop</li>
                         </ol>
 
                     </div>
@@ -67,27 +61,27 @@
                         <!-- SEARCH WIDGET -->
                         <div class="widget">
                             <form class="search-form">
-                                <input type="text" class="form-control" placeholder="Search...">
+                                <input type="text" class="form-control" placeholder="Search... ">
                             </form>
                         </div>
                         <!-- END SEARCH WIDGET -->
 
                         <!-- CATEGORIES WIDGET -->
                         <div class="widget">
-                            <h6 class="montserrat text-uppercase bottom-line">Categories</h6>
+                            <h6 class="montserrat text-uppercase bottom-line">#Số Lượng SP/Thương Hiệu</h6>
                             <ul class="icons-list">
-                                <li><a href="#">Outerwear<span class="pull-right">112</span></a></li>
-                                <li><a href="#">Dresses<span class="pull-right">86</span></a></li>
-                                <li><a href="#">Jumpsuits<span class="pull-right">10</span></a></li>
-                                <li><a href="#">Trousers<span class="pull-right">144</span></a></li>
-                                <li><a href="#">Shoes<span class="pull-right">18</span></a></li>
+                                <li><a href="#">Casio<span class="pull-right">112</span></a></li>
+                                <li><a href="#">Adifice<span class="pull-right">86</span></a></li>
+                                <li><a href="#">G-Shock<span class="pull-right">10</span></a></li>
+                                <li><a href="#">Citizen<span class="pull-right">144</span></a></li>
+                                <li><a href="#">Calvin Klein (CK)<span class="pull-right">18</span></a></li>
                             </ul>
                         </div>
                         <!-- END CATEGORIES WIDGET -->
 
                         <!-- TOP RATED WIDGET -->
                         <div class="widget">
-                            <h6 class="montserrat text-uppercase bottom-line">Top Rated</h6>
+                            <h6 class="montserrat text-uppercase bottom-line">#TOP Xếp Hạng/Đánh Giá</h6>
                             <ul class="top-rated">
                                 <li>
                                     <div class="top-rated-image">
@@ -125,14 +119,15 @@
 
                         <!-- TAGS WIDGET -->
                         <div class="widget">
-                            <h6 class="montserrat text-uppercase bottom-line">Tags</h6>
+                            <h6 class="montserrat text-uppercase bottom-line">#Tags</h6>
                             <div class="tags">
-                                <a href="#">bootstrap</a>
-                                <a href="#">business</a>
-                                <a href="#">corporate</a>
-                                <a href="#">e-commerce</a>
-                                <a href="#">portfolio</a>
-                                <a href="#">responsive</a>
+                                <a href="#">dong-ho</a>
+                                <a href="#">casio</a>
+                                <a href="#">g-shock</a>
+                                <a href="#">citizen</a>
+                                <a href="#">top100</a>
+                                <a href="#">hot</a>
+                                <a href="#">sale</a>
                             </div>
                         </div>
                         <!-- END TAGS WIDGET -->
@@ -143,19 +138,20 @@
                         <div class="row">
                             <div class="form-group col-sm-3">
                                 <select class="form-control">
-                                    <option selected="selected">Popular</option>
-                                    <option>Latest</option>
-                                    <option>Average Price</option>
-                                    <option>High Price</option>
-                                    <option>Low Price</option>
+                                    <option selected="selected">Bán chạy nhất</option>
+                                    <option>Hàng mới nhập</option>
+                                    <option>Hàng Cao Cấp ( > 5 triệu)</option>
+                                    <option>Giá Cao ( 3 triệu - 5 triệu)</option>
+                                    <option>Giá Trung Bình ( 1 triệu - 3 triệu)</option>
+                                    <option>Giá Thấp ( < 1 triệu)</option>
                                 </select>
                             </div>
 
                             <div class="form-group col-sm-3 col-sm-offset-6">
                                 <select class="form-control">
-                                    <option selected="selected">9 Items</option>
-                                    <option>12 Items</option>
-                                    <option>18 Items</option>
+                                    <option selected="selected">9 Mặt Hàng</option>
+                                    <option>12 Mặt Hàng</option>
+                                    <option>18 Mặt Hàng</option>
                                 </select>
                             </div>
                         </div><!-- .row -->
@@ -308,11 +304,11 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <ul class="pagination text-center m-t-35">
-                                    <li><a href="#" aria-label="Previous"><i class="fa fa-angle-left"></i></a></li>
-                                    <li class="active"><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#" aria-label="Next"><i class="fa fa-angle-right"></i></a></li>
+                                    <li><a href="#left" aria-label="Previous"><i class="fa fa-angle-left"></i></a></li>
+                                    <li class="active"><a href="#page1">1</a></li>
+                                    <li><a href="page2">2</a></li>
+                                    <li><a href="#page3">3</a></li>
+                                    <li><a href="#next" aria-label="Next"><i class="fa fa-angle-right"></i></a></li>
                                 </ul>
                             </div>
                         </div>

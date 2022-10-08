@@ -124,15 +124,11 @@
 						<a href="#">Top 100</a>
 						<ul class="submenu">
 							<li><a href="#"><i class="fas fa-caret-right"></i> CASIO HOT <span class="dong-ho-hot">HOT</span></a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> SEICO HOT <span class="dong-ho-hot">HOT</span></a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> CASIO HOT </a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> SEICO HOT </a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> CASIO HOT </a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> SEICO HOT <span class="dong-ho-sale">SALE</span></a></li>
-							
-							
-		
-							
+							<li><a href="#"><i class="fas fa-caret-right"></i> ADIFICE HOT <span class="dong-ho-hot">HOT</span></a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> G-SHOCK HOT </a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> CITIZEN HOT </a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> CALVIN KLEIN (CK) HOT </a></li>
+
 						</ul>
 					</li>
 					<!-- end top 100-->
@@ -141,11 +137,11 @@
 					<li class="has-submenu">
 						<a href="#">Thương Hiệu</a>
 						<ul class="submenu">
-							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ CASIO</a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ ADIFICE</a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ G-SHOCK</a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ CITIZEN</a></li>
-							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ CALVIN KLEIN</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Adifice</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ G-Shock</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Citizen</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Calvin Klein (CK)</a></li>
 							
 		
 							
@@ -196,11 +192,10 @@
 							<li>
 								<span class="submenu-title">Khoảng Giá</span>
 								<ul>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 1 Triệu</a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 2 Triệu</a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 3 Triệu</a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 4 Triệu</a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 5 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Dưới 1 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Từ 1 Triệu - 3 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Từ 3 Triệu - 5 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 5 Triệu </a></li>
 									<li><a href="#"><i class="fas fa-dollar-sign"></i> Đồng Hồ Nam Cao Cấp</a></li>
 									
 								</ul>
@@ -252,12 +247,11 @@
 							<li>
 								<span class="submenu-title">Khoảng Giá</span>
 								<ul>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 1 Triệu </a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 2 Triệu</a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 3 Triệu</a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 4 Triệu</a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 5 Triệu</a></li>
-									<li><a href="#"><i class="fas fa-dollar-sign"></i> Đồng Hồ Nữ Cao Cấp</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Dưới 1 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Từ 1 Triệu - 3 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Từ 3 Triệu - 5 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 5 Triệu </a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Đồng Hồ Nam Cao Cấp</a></li>
 									
 								</ul>
 							</li>

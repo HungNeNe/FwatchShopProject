@@ -1,10 +1,10 @@
 /*! -----------------------------------------------------------------
 [Master Stylesheet]
 
-Project:     Neomax
+Project:     Fwatch
 Version:     1.0.6
-Last change: 11.10.2016
-Primary use: Multipurpose Template
+Last change: 11.10.222
+Primary use: thehung
 
 ------------------------------------------------------------------
 [General Styles]
@@ -712,7 +712,6 @@ hr {
     right: 10px;
     font-family: 'FontAwesome';
     line-height: 40px;
-    content: '\f002';
     font-size: 14px;
     color: #777777;
     opacity: 0.5;

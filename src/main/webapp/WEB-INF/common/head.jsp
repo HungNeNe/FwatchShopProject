@@ -27,3 +27,5 @@
 	<!-- Template core CSS -->
 	<link rel="stylesheet" href="<c:url value="/user/assets/css/vertical.min.css"/> ">
 	<link rel="stylesheet" href="<c:url value="/user/assets/css/template.css"/> ">
+	<!-- Script -->
+ 	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
