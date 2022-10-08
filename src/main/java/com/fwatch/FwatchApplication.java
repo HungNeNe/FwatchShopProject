@@ -14,7 +14,7 @@ public class FwatchApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		System.out.println("Started..........");
+		System.out.println("Running and Openning Fwatch Shop.");
 	}
 
 }

@@ -1,13 +1,14 @@
-    
-    <!-- Favicons -->
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<!-- Favicons -->
 	<link rel="shortcut icon" href="<c:url value="/user/assets/images/favicon.png"/> ">
 	<link rel="apple-touch-icon" href="<c:url value="/user/assets/images/apple-touch-icon.png"/> ">
 	<link rel="apple-touch-icon" sizes="72x72" href="<c:url value="/user/assets/images/apple-touch-icon-72x72.png"/> ">
 	<link rel="apple-touch-icon" sizes="114x114" href="<c:url value="/user/assets/images/apple-touch-icon-114x114.png"/> ">
-	
+
 	<!-- Web Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet'>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 	
 	<!-- Bootstrap core CSS -->
@@ -16,7 +17,7 @@
 	<!-- Icon Fonts -->
 	<link rel="stylesheet" href="<c:url value="/user/assets/css/font-awesome.min.css" /> ">
 	<link rel="stylesheet" href="<c:url value="/user/assets/css/simple-line-icons.css"/> ">
-	
+
 	<!-- Plugins -->
 	<link rel="stylesheet" href="<c:url value="/user/assets/css/magnific-popup.css "/> ">
 	<link rel="stylesheet" href="<c:url value="/user/assets/css/owl.carousel.css"/> " >

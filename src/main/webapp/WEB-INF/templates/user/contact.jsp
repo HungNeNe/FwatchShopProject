@@ -31,6 +31,7 @@
 <!-- Header -->
 <jsp:include page="/WEB-INF/common/header.jsp"></jsp:include>
 <!-- Close Header -->
+<div class="wrapper">
 <!-- PAGE TITLE -->
 <section class="module-sm bg-white-dark">
     <div class="container">

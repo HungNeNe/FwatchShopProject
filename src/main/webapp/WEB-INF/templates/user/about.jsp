@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-    <title>Fwatch Shop</title>
+    <title>Fwatch Shop | About</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -31,6 +31,7 @@
 <!-- Header -->
 <jsp:include page="/WEB-INF/common/header.jsp"></jsp:include>
 <!-- Close Header -->
+<div class="wrapper">
 <!-- PAGE TITLE -->
 <h5>NOI DUNG CUA TRANG</h5>
 <!-- END PAGE TITLE -->
