@@ -13,7 +13,7 @@
 				<div class="col-md-6 hidden-sm hidden-xs">
 					<ul class="top-bar-list list-icons">
 
-						<li><i class="fas fa-paper-plane"></i> 01 Hồ Quý Ly, P.Hòa Minh, Q.Liên Chiểu, TP.Đà Nẵng | <i class="fas fa-envelope-open"></i> admin.fwatch@gmail.com</li>
+						<li><i class="fas fa-paper-plane"></i> 01 Hồ Quý Ly, P.Hòa Minh, Q.Liên Chiểu, TP.Đà Nẵng | <i class="fas fa-envelope-open"></i><a href="mailto:admin.fwatch@gmail.com"> admin.fwatch@gmail.com</a></li>
 
 					</ul>
 				</div>
