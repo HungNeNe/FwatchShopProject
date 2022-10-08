@@ -7,7 +7,7 @@
 	
 			<div class="off-canvas-cart-header">
 				<a id="cart-toggle" href="#">
-					<i class="icon-arrow-right-circle icons"></i>
+					<i class="far fa-arrow-alt-circle-right"></i>
 				</a>
 			</div>
 	
@@ -17,7 +17,7 @@
 					<!-- ITEM -->
 					<div class="off-canvas-cart-item">
 						<div class="off-canvas-cart-item-trash">
-							<a href="#"><i class="icon-trash icons"></i></a>
+							<a href="#"><i class="fas fa-trash"></i></a>
 						</div>
 						<div class="off-canvas-cart-item-thumbnail">
 							<a href="#"><img class="cart-thumbnail" src="<c:url value='/user/assets/images/shop/1.jpg'/>" alt=""></a>
@@ -32,7 +32,7 @@
 					<!-- ITEM -->
 					<div class="off-canvas-cart-item">
 						<div class="off-canvas-cart-item-trash">
-							<a href="#"><i class="icon-trash icons"></i></a>
+							<a href="#"><i class="fas fa-trash"></i></a>
 						</div>
 						<div class="off-canvas-cart-item-thumbnail">
 							<a href="#"><img class="cart-thumbnail" src="<c:url value='/user/assets/images/shop/2.jpg'/>" alt=""></a>
@@ -47,7 +47,7 @@
 					<!-- ITEM -->
 					<div class="off-canvas-cart-item">
 						<div class="off-canvas-cart-item-trash">
-							<a href="#"><i class="icon-trash icons"></i></a>
+							<a href="#"><i class="fas fa-trash"></i></a>
 						</div>
 						<div class="off-canvas-cart-item-thumbnail">
 							<a href="#"><img class="cart-thumbnail" src="<c:url value='/user/assets/images/shop/3.jpg'/>" alt=""></a>

@@ -139,9 +139,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart icons"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -162,9 +162,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -185,9 +185,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -247,9 +247,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -270,9 +270,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -293,9 +293,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -316,9 +316,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -339,9 +339,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -362,9 +362,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -385,9 +385,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -408,9 +408,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -431,9 +431,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -454,9 +454,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -477,9 +477,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -500,9 +500,9 @@ Template Fwatch Shop
 								<div class="shop-item-tools">
 									<div>
 										<div>
-											<a href="#" title="Add to cart"><i class="icon-basket-loaded icons"></i></a>
-											<a href="#" title="View item"><i class="icon-eye icons"></i></a>
-											<a href="#" title="Add to whishlist"><i class="icon-heart icons"></i></a>
+											<a href="#" title="Add to cart"><i class="fas fa-shopping-cart"></i></a>
+											<a href="#" title="View item"><i class="fas fa-eye"></i></a>
+											<a href="#" title="Add to whishlist"><i class="fas fa-heart"></i></a>
 										</div>
 									</div>
 								</div>
@@ -535,7 +535,7 @@ Template Fwatch Shop
 	<!-- SHOP CART -->
 	<jsp:include page="/WEB-INF/common/shop-cart.jsp"></jsp:include>
 	<!-- END SHOP CART -->
-    <!-- End  -->
+    <!-- End  --><i class="fas fa-angle-right"></i>
 
     <!-- JAVASCRIPT FILES -->
 

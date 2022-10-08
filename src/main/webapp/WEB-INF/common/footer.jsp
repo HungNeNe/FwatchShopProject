@@ -18,9 +18,10 @@
 					<p>Cảm ơn các bạn đã tin tưởng và mua hàng ở Fwatch chúng tôi.</p>
 
 					<ul class="social-icons social-icons-simple">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://www.facebook.com/nguyenthehung02.dev" title="fb admin fwatch"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="https://m.me/nguyenthehung02.dev" title="messenger fwatch"><i class="fab fa-facebook-messenger"></i></a></li>
+						<li><a href="#" title="instgram fwatch"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#" title="google fwatch.com"><i class="fab fa-google-plus"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -114,13 +115,13 @@
 
 				<div class="col-sm-6">
 					<p class="m-0">
-						Copyright <a href="#">Fwatch </a>&copy; 2022. All Rights Reserved.
+						Copyright <a href="/fwatch.com">Fwatch </a>&copy; 2022. All Rights Reserved.
 					</p>
 				</div>
 
 				<div class="col-sm-6">
 					<div class="text-right">
-						<a href="#top" class="scroll-top"><i class="fa fa-level-up"></i></a>
+						<a href="#top" class="scroll-top"><i class="fas fa-level-up-alt"></i></a>
 					</div>
 				</div>
 

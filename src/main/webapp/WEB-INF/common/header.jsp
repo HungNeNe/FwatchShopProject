@@ -1,5 +1,45 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="taglib.jsp" %>
+<style>
+	span.dong-ho-hot{
+		background-color: orange;
+		color: white;
+		opacity: 1;
+		position: absolute;
+		top: 30%;
+		margin-left: 15px;
+		padding: 2px 4px;
+		line-height: 1.3;
+		font-size: 8px;
+		text-transform: uppercase;
+		transform: translateY(-50%);
+		-webkit-transition: opacity .3s ease-in-out;
+		-webkit-transform: translateY(-50%);
+		transition: opacity .3s ease-in-out;
+		font-family: Karla,Arial,Helvetica,sans-serif;
+
+
+	}
+	span.dong-ho-sale{
+		background-color: red;
+		color: white;
+		opacity: 1;
+		position: absolute;
+		top: 30%;
+		margin-left: 15px;
+		padding: 2px 4px;
+		line-height: 1.3;
+		font-size: 8px;
+		text-transform: uppercase;
+		transform: translateY(-50%);
+		-webkit-transition: opacity .3s ease-in-out;
+		-webkit-transform: translateY(-50%);
+		transition: opacity .3s ease-in-out;
+		font-family: Karla,Arial,Helvetica,sans-serif;
+
+
+	}
+</style>
 <!-- HEADER -->
 	<header class="header js-stick">
 		<div class="container">
@@ -28,7 +68,7 @@
 					<div class="menu-item">
 						<div class="extras-cart">
 							<a href="#" id="open-cart">
-								<i class="icon-basket icons"></i>
+								<i class="fas fa-shopping-cart"></i>
 								<span class="cart-badge">2</span>
 							</a>
 						</div>
@@ -38,7 +78,7 @@
 					<!-- SEARCH -->
 					<div class="menu-item hidden-xxs">
 						<div class="extras-search">
-							<a id="modal-search" href="#"><i class="icon-magnifier icons"></i></a>
+							<a id="modal-search" href="#"><i class="fas fa-search"></i></a>
 							<form action="#" class="header-search-form">
 								<div class="search-form-inner">
 									<div class="container">
@@ -77,12 +117,12 @@
 					<li class="has-submenu">
 						<a href="#">Top 100</a>
 						<ul class="submenu">
-							<li><a href="#">CASIO HOT</a></li>
-							<li><a href="#">SEICO HOT</a></li>
-							<li><a href="#">CASIO HOT</a></li>
-							<li><a href="#">SEICO HOT</a></li>
-							<li><a href="#">CASIO HOT</a></li>
-							<li><a href="#">SEICO HOT</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> CASIO HOT <span class="dong-ho-hot">HOT</span></a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> SEICO HOT <span class="dong-ho-hot">HOT</span></a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> CASIO HOT </a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> SEICO HOT </a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> CASIO HOT </a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> SEICO HOT <span class="dong-ho-sale">SALE</span></a></li>
 							
 							
 		
@@ -95,11 +135,11 @@
 					<li class="has-submenu">
 						<a href="#">Thương Hiệu</a>
 						<ul class="submenu">
-							<li><a href="#">Thương Hiệu 1</a></li>
-							<li><a href="#">Thương Hiệu 2</a></li>
-							<li><a href="#">Thương Hiệu 3</a></li>
-							<li><a href="#">Thương Hiệu 4</a></li>
-							<li><a href="#">Thương Hiệu 5</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ CASIO</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ ADIFICE</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ G-SHOCK</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ CITIZEN</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ CALVIN KLEIN</a></li>
 							
 		
 							
@@ -114,11 +154,11 @@
 							<li>
 								<span class="submenu-title">Đồng Hồ Nam HOT</span>
 								<ul>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nam</a></li>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nam</a></li>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nam</a></li>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nam</a></li>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nam</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nam <span class="dong-ho-hot">HOT</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nam <span class="dong-ho-hot">HOT</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nam </a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nam <span class="dong-ho-hot">HOT</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nam <span class="dong-ho-hot">HOT</span></a></li>
 									
 								</ul>
 							</li>
@@ -126,11 +166,11 @@
 							<li>
 								<span class="submenu-title">Đồng Hồ Nam Khuyến Mãi</span>
 								<ul>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nam Sale</a></li>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nam Sale</a></li>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nam Sale</a></li>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nam Sale</a></li>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nam Sale</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nam Sale<span class="dong-ho-sale">SALE</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nam Sale</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nam Sale<span class="dong-ho-sale">SALE</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nam Sale<span class="dong-ho-sale">SALE</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nam Sale<span class="dong-ho-sale">SALE</span></a></li>
 									
 								</ul>
 							</li>
@@ -138,11 +178,11 @@
 							<li>
 								<span class="submenu-title">Loại Máy</span>
 								<ul>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
 									
 								</ul>
 							</li>
@@ -150,12 +190,12 @@
 							<li>
 								<span class="submenu-title">Khoảng Giá</span>
 								<ul>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 1 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 2 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 3 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 4 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 5 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Đồng Hồ Nam Cao Cấp</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 1 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 2 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 3 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 4 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 5 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Đồng Hồ Nam Cao Cấp</a></li>
 									
 								</ul>
 							</li>
@@ -170,11 +210,11 @@
 							<li>
 								<span class="submenu-title">Đồng Hồ Nữ HOT</span>
 								<ul>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nữ</a></li>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nữ</a></li>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nữ</a></li>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nữ</a></li>
-									<li><a href="#"><i class="fa fa-list-ul"></i>Đồng Hồ Casio Nữ</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nữ <span class="dong-ho-hot">HOT</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nữ <span class="dong-ho-hot">HOT</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nữ <span class="dong-ho-hot">HOT</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nữ <span class="dong-ho-hot">HOT</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Casio Nữ <span class="dong-ho-hot">HOT</span></a></li>
 									
 								</ul>
 							</li>
@@ -182,11 +222,11 @@
 							<li>
 								<span class="submenu-title">Đồng Hồ Nữ Khuyến Mãi</span>
 								<ul>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nữ Sale</a></li>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nữ Sale</a></li>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nữ Sale</a></li>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nữ Sale</a></li>
-									<li><a href="#"><i class="fa fa-th fa-sm"></i>Đồng Hồ Candino Nữ Sale</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nữ Sale <span class="dong-ho-sale">SALE</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nữ Sale <span class="dong-ho-sale">SALE</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nữ Sale <span class="dong-ho-sale">SALE</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nữ Sale <span class="dong-ho-sale">SALE</span></a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Đồng Hồ Candino Nữ Sale <span class="dong-ho-sale">SALE</span></a></li>
 									
 								</ul>
 							</li>
@@ -194,11 +234,11 @@
 							<li>
 								<span class="submenu-title">Loại Máy</span>
 								<ul>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
+									<li><a href="#"><i class="fas fa-caret-right"></i> Pin(Quartz)</a></li>
 									
 								</ul>
 							</li>
@@ -206,12 +246,12 @@
 							<li>
 								<span class="submenu-title">Khoảng Giá</span>
 								<ul>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 1 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 2 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 3 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 4 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Trên 5 Triệu</a></li>
-									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Đồng Hồ Nữ Cao Cấp</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 1 Triệu </a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 2 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 3 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 4 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Trên 5 Triệu</a></li>
+									<li><a href="#"><i class="fas fa-dollar-sign"></i> Đồng Hồ Nữ Cao Cấp</a></li>
 									
 								</ul>
 							</li>

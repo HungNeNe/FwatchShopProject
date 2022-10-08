@@ -12,8 +12,8 @@
 		
 				<div class="col-md-6 hidden-sm hidden-xs">
 					<ul class="top-bar-list list-icons">
-						<li><i class="icon-paper-plane icons"></i>01 Hồ Quý Ly, P.Hòa Minh, Q.Liên Chiểu, TP.Đà Nẵng</li>
-						<li><i class="icon-envelope-open icons"></i> admin.fwatch@gmail.com</li>
+						<li><i class="fas fa-paper-plane"></i> 01 Hồ Quý Ly, P.Hòa Minh, Q.Liên Chiểu, TP.Đà Nẵng | <i class="fas fa-envelope-open"></i> admin.fwatch@gmail.com</li>
+
 					</ul>
 				</div>
 		
